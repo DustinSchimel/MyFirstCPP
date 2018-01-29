@@ -7,15 +7,32 @@
 //
 
 #include "Controller.hpp"
+#include <vector>
+#include <iostream>
 
 using namespace std;
 
 Controller :: Controller()
 {
-    cout << "Look I am a constructor :D" << endl;
+    //cout << "Look I am a constructor :D" << endl;
 }
 
 void Controller :: start()
 {
-    cout << "I am in the start method." << endl;
+    //cout << "I am in the start method." << endl;
+    
+    string name = "Dustin Schimel";
+    
+    cout << name << endl;
+    
+    for (int index = 13; index < 32; index++)
+    {
+        cout << index << endl;
+    }
+    
+    cout << &name << endl;
+    
+    cout << "I" << " like" << " green" << endl;
+    
+    
 }
